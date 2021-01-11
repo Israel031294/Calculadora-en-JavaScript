@@ -2,7 +2,7 @@
     display: block;
     margin:0 auto;
     padding: 20px;
-    background-color: blue;
+    background-color:black;
     width: 345px ;
     height: 500px;
     border-radius: 25px;
@@ -23,7 +23,7 @@
     width: 300px;
     height: 100px;
     line-height: 100px;
-    background-color: whitesmoke;
+    background-color: #fff;
     border-radius: 25px;
     overflow-y: scroll;
 }

@@ -1,24 +1,26 @@
-let operandoa;
-let operandob;
-let operacion;
+
+var operandoa;
+var operandob;
+var operacion;
 
 function init(){
-    let resultado= document.getElementById("resultado");
-    let reset= document.getElementById("reset");
-    let suma= document.getElementById("suma");
-    let resta= document.getElementById("resta");
-    let multiplicacion= document.getElementById("multiplicacion");
-    let division= document.getElementById("division");
-    let igual= document.getElementById("igual");
-    let uno= document.getElementById("uno");
-    let dos= document.getElementById("dos");
-    let tres= dosdocument.getElementById("tres");
-    let cuatro= document.getElementById("catro");
-    let cinco= document.getElementById("cinco");
-    let seis= document.getElementById("seis");
-    let siete= document.getElementById("siete");
-    let ocho= document.getElementById("ocho");
-    let nueve= document.getElementById("nueve");
+    
+    var resultado= document.getElementById("resultado");
+    var reset= document.getElementById("reset");
+    var suma= document.getElementById("suma");
+    var resta= document.getElementById("resta");
+    var multiplicacion= document.getElementById("multiplicacion");
+    var division= document.getElementById("division");
+    var igual= document.getElementById("igual");
+    var uno= document.getElementById("uno");
+    var dos= document.getElementById("dos");
+    var tres= document.getElementById("tres");
+    var cuatro= document.getElementById("cuatro");
+    var cinco= document.getElementById("cinco");
+    var seis= document.getElementById("seis");
+    var siete= document.getElementById("siete");
+    var ocho= document.getElementById("ocho");
+    var nueve= document.getElementById("nueve");
     var cero= document.getElementById("cero");
     
     //eventos
@@ -76,18 +78,17 @@ function init(){
         limpiar();
     }
     igual.onclick= function(e){
-        operandoa= resultado.textContent;
-        operacion="+";
+        operandob= resultado.textContent;
         resolver();
     }
 
 }
 
 function limpiar(){
-    resultado.textContent +"";
+    resultado.textContent =" ";
 }
  function resetear (){
-     resultado.textContent="";
+     resultado.textContent=" ";
      operandoa=0;
      operandob=0;
      operacion="";
