@@ -85,7 +85,7 @@ function init(){
 }
 
 function limpiar(){
-    resultado.textContent =" ";
+    resultado.textContent ="";
 }
  function resetear (){
      resultado.textContent=" ";
